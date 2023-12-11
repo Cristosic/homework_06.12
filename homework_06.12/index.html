@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+     <!-- 1 уровень сложности: Создать 3 input поле и также 4 кнопки, каждая кнопка будет выполнять определённое действие и будет вызывать свой метод -->
+    
+        
+    <section class="container">
+
+        <div class="form">
+            <div class="form__item">
+                <label for="">First number</label>
+                <input type="text" class="form__input input-1">
+            </div>
+
+             <div class="form__item">
+                <label for="">Second number</label>
+                <input type="text" class="form__input input-2">
+            </div>
+
+             <div class="form__item">
+                <label for="">Third number</label>
+                <input type="text" class="form__input input-3">
+            </div>
+
+            <button class="btn" onclick="checkEquality()">Check Equality</button>
+            <button class="btn" onclick="hasZero()">Zero</button>
+            <button class="btn" onclick="sameOne()">Same Number</button>
+            <button class="btn">Test</button>
+        </div>
+
+        <h3 class="result result-1"></h3>
+    </section>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
